@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 public class JO_1856 {
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("sample/Sample_1303.txt"));
+		System.setIn(new FileInputStream("sample/Sample_1856.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		StringBuffer sb = new StringBuffer();
