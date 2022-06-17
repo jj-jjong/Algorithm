@@ -14,7 +14,6 @@ public class JO_1314 {
 					System.out.printf("%c ", e + (i + j * n) % 26);
 				else
 					System.out.printf("%c ", e + ((j + 1) * n - 1 - i) % 26);
-//				System.out.printf("%c ", e + (i + j * n) % 26);
 			}
 			System.out.println();
 		}
