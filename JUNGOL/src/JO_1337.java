@@ -10,6 +10,7 @@ public class JO_1337 {
 		int[][] arr = new int[N][N];
 		
 		int cont = 0;
+		int lr = 0, lc = 0;
 		for (int i = 0; i < N; i += 2) {
 			// 빗면
 			for (int j = i; j < N - 1 - i / 2; j++) {
@@ -22,8 +23,13 @@ public class JO_1337 {
 			// 수직선
 			for (int j = N - 1 - i / 2; j > i; j--) {
 				arr[j][i / 2] = cont++%10;
+				lr = j;
+				lc = i /2;
 			}
 		}
+		
+		if (N % 3 == 1)
+			arr[lr + 1][lc + 1] = cont++%10; 
 		
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j <= i; j++) {
