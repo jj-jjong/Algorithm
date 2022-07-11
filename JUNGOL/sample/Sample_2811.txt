@@ -1,0 +1,10 @@
+3 10 1 55 127
+
+
+#########################
+
+prime number
+composite number
+number one
+composite number
+prime number
